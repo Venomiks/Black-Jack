@@ -1,8 +1,8 @@
 import random
-
-cards = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
-cards_in_hand = [random.choice(cards),random.choice(cards)]
 while True:
+    cards = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+    cards_in_hand = [random.choice(cards),random.choice(cards)]
+
    # balance = [10]
     #print('you have 10$')
     play= input("would you like to play Black Jack?")
@@ -28,7 +28,6 @@ while True:
       #  print(sum(balance))
     else:
         print("You lose")
-
 
     answer = input(" Wanna play again? yes/no: ")
     if answer != 'yes':
